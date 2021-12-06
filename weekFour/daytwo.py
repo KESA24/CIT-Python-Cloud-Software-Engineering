@@ -19,17 +19,27 @@
 # print(bubblesort(arr))
 
 
-arr1 = [100, 49, 3,22,67,29]
+# arr1 = [100, 49, 3,22,67,29]
 
-def selectionsort(array):
-    n= len(array)
-    for i in range(n):
-        cur_index = i
-        for j in range(i+1, n):
-            if array[cur_index] > array[j]:
-                cur_index = j
-        array[i], array[cur_index] = array[cur_index], array[i]
-    return array
+# def selectionsort(array):
+#     n= len(array)
+#     for i in range(n):
+#         cur_index = i
+#         for j in range(i+1, n):
+#             if array[cur_index] > array[j]:
+#                 cur_index = j
+#         array[i], array[cur_index] = array[cur_index], array[i]
+#     return array
 
 
-print(selectionsort(arr1))
+# print(selectionsort(arr1))
+
+print('How many grapes are in your hands?')
+numberOfGrapes = 0
+
+while numberOfGrapes <= 10:
+    numberOfGrapes+=1
+    print('You have '+ str(numberOfGrapes)+ ' grapes')
+
+
+36//6 
